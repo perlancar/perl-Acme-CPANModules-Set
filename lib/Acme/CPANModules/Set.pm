@@ -37,7 +37,17 @@ _
             module => 'Set::Tiny',
             description => <<'_',
 
-Basically just a hash underneath. You are limited to storing strings as values.
+Uses hash underneath, so you are also limited to storing strings as values. but
+unlike <pm:Set::Light>, provides more methods.
+
+_
+        },
+
+        {
+            module => 'Array::Set',
+            description => <<'_',
+
+Performs set operations on array
 
 _
         },
